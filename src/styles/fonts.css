@@ -1,0 +1,18 @@
+/* Import fun, kid-friendly fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Nunito:wght@300;400;600;700;800;900&family=Bubblegum+Sans&display=swap');
+
+/* Custom font face for Comic Sans MS fallback */
+:root {
+  --font-playful: 'Fredoka', 'Comic Sans MS', cursive, system-ui;
+  --font-body: 'Nunito', 'Comic Sans MS', sans-serif, system-ui;
+  --font-fun: 'Bubblegum Sans', 'Comic Sans MS', cursive, system-ui;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+/* Apply playful fonts to headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-playful);
+}
